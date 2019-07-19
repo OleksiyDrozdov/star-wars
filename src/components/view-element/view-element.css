@@ -1,0 +1,11 @@
+h4 {
+  color: white;
+}
+span {
+  color: white;
+}
+div.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,30 @@
+div.wrapHeader > a {
+  font-size: bold;
+  font-weight: 900;
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  -webkit-text-stroke: 5px rgb(110, 23, 23);
+  transition: 0.5s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-between;
+  max-width: 970px;
+  margin: 20px auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+}
+
+div.wrapHeader > a:hover {
+  letter-spacing: 10px;
+}
