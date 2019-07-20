@@ -34,7 +34,7 @@ class App extends Component {
 
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div>
           <Header click={this.handleClick} />
           <section className="wrapImg">
@@ -51,7 +51,6 @@ class App extends Component {
           <main className="info">
             <Switch>
               <Route path="/" exact />
-              <Route path="/star-wars/" />
               <Route
                 path="/planets"
                 render={() => (
