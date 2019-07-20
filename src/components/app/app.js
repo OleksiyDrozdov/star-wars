@@ -51,6 +51,7 @@ class App extends Component {
           <main className="info">
             <Switch>
               <Route path="/" exact />
+              <Route path="/star-wars/" />
               <Route
                 path="/planets"
                 render={() => (
