@@ -1,5 +1,5 @@
 class SwapiService {
-  _apiB = "https://swapi.co/api";
+  _apiB = "https://swapi.dev/api";
   getResource = async url => {
     const res = await fetch(`${this._apiB}${url}`);
     if (!res.ok) {
