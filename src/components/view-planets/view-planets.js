@@ -1,6 +1,5 @@
 import React from "react";
 import ItemsImg from "../items-img/items-img";
-import "../view-planets/view-planets.css";
 
 const ViewPlanets = ({
   element: { id, name, population, rotationPeriod, diameter, terrain }

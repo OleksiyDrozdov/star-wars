@@ -1,5 +1,4 @@
 import React from "react";
-import "../list-of-planents/list-of-plnets.css";
 import ItemList from "../item-list/item-list";
 import ViewElement from "../view-element/view-element";
 import SwapiService from "../../services/swapi-service";

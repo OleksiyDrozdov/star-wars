@@ -1,5 +1,4 @@
 import React from "react";
-import "../list-of-characters/list-of-characters.css";
 import ItemList from "../item-list/item-list";
 import SwapiService from "../../services/swapi-service";
 import ViewElement from "../view-element/view-element";

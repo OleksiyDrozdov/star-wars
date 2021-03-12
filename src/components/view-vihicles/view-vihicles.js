@@ -1,6 +1,5 @@
 import React from "react";
 import ItemsImg from "../items-img/items-img";
-import "../view-planets/view-planets.css";
 const ViewVihicles = ({
   element: { id, name, model, manufacturer, length, crew, passengers }
 }) => {
